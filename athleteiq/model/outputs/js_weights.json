@@ -1,0 +1,35 @@
+{
+  "model_type": "GradientBoostingClassifier",
+  "n_estimators": 200,
+  "auc_roc": 0.6999,
+  "accuracy": 0.7775,
+  "cv_auc_mean": 0.7065,
+  "cv_auc_std": 0.0375,
+  "optimal_threshold": 0.61,
+  "prob_p5": 0.3493,
+  "prob_p95": 0.9811,
+  "feature_weights": {
+    "weekly_load_mins": 0.21976,
+    "fatigue_score": 0.204143,
+    "sleep_quality": 0.169865,
+    "muscle_soreness": 0.127604,
+    "prior_injuries": 0.069746,
+    "days_no_rest": 0.050399,
+    "age": 0.138903,
+    "position_risk": 0.01958
+  },
+  "feature_order": [
+    "weekly_load_mins",
+    "fatigue_score",
+    "sleep_quality",
+    "muscle_soreness",
+    "prior_injuries",
+    "days_no_rest",
+    "age",
+    "position_risk"
+  ],
+  "dataset_size": 2000,
+  "injury_rate": 0.7875,
+  "framework": "scikit-learn 1.8.0",
+  "note": "Synthetic dataset generated from published feature distributions. See train_model.py for full documentation."
+}

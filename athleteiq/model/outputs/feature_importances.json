@@ -1,0 +1,42 @@
+{
+  "weekly_load_mins": {
+    "impurity_importance": 0.272516,
+    "permutation_importance": 0.070891,
+    "permutation_std": 0.0214
+  },
+  "fatigue_score": {
+    "impurity_importance": 0.218991,
+    "permutation_importance": 0.036855,
+    "permutation_std": 0.01731
+  },
+  "sleep_quality": {
+    "impurity_importance": 0.14968,
+    "permutation_importance": 0.028075,
+    "permutation_std": 0.013109
+  },
+  "muscle_soreness": {
+    "impurity_importance": 0.094627,
+    "permutation_importance": 0.02273,
+    "permutation_std": 0.00969
+  },
+  "prior_injuries": {
+    "impurity_importance": 0.115005,
+    "permutation_importance": 0.050013,
+    "permutation_std": 0.013482
+  },
+  "days_no_rest": {
+    "impurity_importance": 0.063222,
+    "permutation_importance": 0.027403,
+    "permutation_std": 0.008744
+  },
+  "age": {
+    "impurity_importance": 0.074209,
+    "permutation_importance": 0.009655,
+    "permutation_std": 0.007721
+  },
+  "position_risk": {
+    "impurity_importance": 0.01175,
+    "permutation_importance": 0.008422,
+    "permutation_std": 0.003876
+  }
+}
