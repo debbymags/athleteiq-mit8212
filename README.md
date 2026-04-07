@@ -1,4 +1,4 @@
-# AthleteIQ — AI-Enabled Injury Risk Predictor
+# AthleteIQ AI-Enabled Injury Risk Predictor
 
 > **MIT 8212 Seminar Project** · Miva Open University · 2025/2026  
 > Batch 2: Data-Driven Decision-Making and Investigative Approaches
@@ -59,23 +59,20 @@ athleteiq/
 
 ### Features (8 inputs)
 
-| Feature | Importance | Basis |
-|---|---|---|
-| Weekly Training Load (mins) | 21.98% | van Dyk et al. (2024) |
-| Fatigue Score (0–10) | 20.41% | Claudino et al. (2023) |
-| Sleep Quality (0–10) | 16.99% | Milewski et al. (2014) |
-| Age | 13.89% | Meeuwisse et al. (2007) |
-| Muscle Soreness (0–10) | 12.76% | Rossi et al. (2022) |
-| Prior Injuries (season) | 6.97% | Bahr & Andersen (2023) |
-| Days Without Rest | 5.04% | Gabbett et al. (2023) |
-| Position Risk Category | 1.96% | FIFA Medical (2024) |
+| Feature  | Basis |
+|---|---|
+| Weekly Training Load (mins) | 21.98% | 
+| Fatigue Score (0–10) | 20.41% | 
+| Sleep Quality (0–10) | 16.99% | 
+| Age | 13.89% | 
+| Muscle Soreness (0–10) | 12.76% | 
+| Prior Injuries (season) | 6.97% | 
+| Days Without Rest | 5.04% 
+| Position Risk Category | 1.96% 
 
 ### Dataset Note
 
-The training dataset is **synthetic**, generated from published feature distributions in:
-- Rossi et al. (2022). *Effective injury forecasting in soccer...* PLOS ONE.
-- Claudino et al. (2023). *AI for injury prediction in football.* Sports Medicine Open.
-- van Dyk et al. (2024). *Workload monitoring and injury risk.* BJSM.
+The training dataset is **synthetic**, generated from published feature distributions 
 
 This is documented transparently in the seminar paper (Chapter 3) and the model training script.
 
@@ -106,7 +103,7 @@ Outputs will be written to `model/outputs/`.
 
 ---
 
-## Planned Development (Next Semester — Final Project)
+## Planned Development (Next Semester Final Project)
 
 - [ ] Connect to real biometric data API (Catapult / Kinexon)
 - [ ] Train on actual NPFL injury records
@@ -121,7 +118,7 @@ Outputs will be written to `model/outputs/`.
 
 **Course:** MIT 8212 – Seminar: Industry Applications and Management in IT  
 **Institution:** Miva Open University  
-**Session:** 2024/2025  
+**Session:** 2025/2026  
 **Batch:** 2 — Data-Driven Decision-Making and Investigative Approaches  
 **Frameworks applied:** Technology Acceptance Model (TAM), SWOT Analysis, ACWR
 
